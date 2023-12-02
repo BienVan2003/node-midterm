@@ -74,8 +74,6 @@ io.on("connection", (socket) => {
     });
 });
 
-
-
 app.get("/test", (req, res) => {
     const totalOnlineUsers = onlineUsers.size;
     console.log(`Tổng số người dùng đang online: ${totalOnlineUsers}`);
